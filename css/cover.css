@@ -338,9 +338,31 @@ a:hover {
       line-height: inherit;
       text-transform: uppercase;
       cursor: pointer;
-      background: rgb(108, 108, 236);
+      background: rgb(235, 87, 87);
       color: accent;
+      float:center;
 }
+
+.btn {
+
+  outline: none;
+      background: accent;
+      width: 80%;
+      border: 0;
+      border-radius: 10px;
+      padding: 10px 350px;
+      color: white;
+      font-family: inherit;
+      font-size: inherit;
+      font-weight: semibold;
+      line-height: inherit;
+      text-transform: uppercase;
+      cursor: pointer;
+      background: rgb(235, 87, 87);
+      color: accent;
+      float: center;
+}
+
 
 
 /*
@@ -398,7 +420,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   max-width: 80%;
-  height: 470px;
+  height: 580px;
   width: 100000px;
   background: rgba(255, 255, 255, 0.726);
 	border-radius: 20px 20px 20px 20px;
@@ -409,6 +431,36 @@ h1 {
   
 }
 
+.grid_1 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 66%;
+  height: 580px;
+  width: 1000px;
+  background: rgba(255, 255, 255, 0.726);
+	border-radius: 20px 20px 20px 20px;
+	color: rgba(10, 10, 10, 0.726);
+	font-size: 14px;
+  padding: 20px 20px;
+
+  
+}
+
+
+.grid_2 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  height: 500px;
+  width: 100000px;
+  background: rgba(255, 255, 255, 0.726);
+	border-radius: 20px 20px 20px 20px;
+	color: rgba(10, 10, 10, 0.726);
+	font-size: 14px;
+  padding: 20px 20px;
+
+  
+}
 
 
 .group {
@@ -481,8 +533,6 @@ input {
 .nav-masthead .nav-link:focus {
   border-bottom-color: rgba(7, 7, 7, 0.856);
 
-
-
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -501,6 +551,39 @@ input {
   .nav-masthead {
     float: right;
   }
+}
+
+/*formulario*/
+
+.one-half {
+    position: left;
+    margin-right: 4%;
+    float: left;
+    margin-bottom: 20px;
+    width: 48%;
+ 
+}
+
+@media only screen and (max-width: 767px) {
+  .one-half{
+      width: 100%;
+      margin-right: 0;
+  }
+}
+ 
+.one-half-last {
+    position: right;
+    width: 100%;
+    margin-right: 4% !important;
+    float: right;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .one-half-last{
+        width: 0%;
+        margin-right: 0;
+    }
 }
 
 
