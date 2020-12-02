@@ -3,7 +3,7 @@
 function crearPelicula(obj){
     $.ajax({
         method: 'POST',
-        url: '/cgi-bin/Proyecto_Arquitectura/App.py',
+        url: '/cgi-bin/Pelicula_Proyecto_Back/App.py',
         data: obj,
         dataType: "json",
         success: function(response) {
