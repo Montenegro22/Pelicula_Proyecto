@@ -8,7 +8,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-        <title>PELIRANDOM</title>
+        <title>MOVIERANDOM</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <meta name="description" content="Fullscreen Background Image Slideshow with CSS3 - A Css-only fullscreen background image slideshow" />
         <meta name="keywords" content="css3, css-only, fullscreen, background, slideshow, images, content" />
@@ -22,7 +22,7 @@
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
       <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
       
@@ -50,7 +50,8 @@
     <!-- Bootstrap core CSS -->
 
 
-   
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  
 
 
 
@@ -61,7 +62,7 @@
       <li><span>Image 01</span><div><h3></h3></div></li>
       <li><span>Image 02</span><div><h3></h3></div></li>
       <li><span>Image 03</span><div><h3></h3></div></li>
-      <li><span>Image 04</span><div><h3></h3></div></li>
+      <li><span>Image 04</span><div><h3> </h3></div></li>
       <li><span>Image 05</span><div><h3></h3></div></li>
       <li><span>Image 06</span><div><h3></h3></div></li>
       <li><span>Image 07</span><div><h3></h3></div></li>
@@ -78,8 +79,8 @@
   <header class="masthead mb-auto">
     <div class="inner">
       <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link" href="index.html">Bienvenido</a>
-        <a class="nav-link active" href="Login.html">Log in </a>
+        <a class="nav-link active" href="index.html">Bienvenido</a>
+        <a class="nav-link" href="Login.html">Log in</a>
         <a class="nav-link" href="Admin.html">Administrador</a>
       </nav>
     </div>
@@ -99,48 +100,72 @@
 <center>
 
 
-     <div class="grid_2" >
+     <div class="grid" >
 
       <div class="login">
         
         <fieldset>
           <img src="Imagenes/Logo.png" width="250" height="200">
 
-          <br>
-          <br>
+
+<br>
+<br>
 
           <div class="group">
 
-          <form action="/cgi-bin/Proyecto_arquitectura/response.py" method="POST">
-            <div data-role = "fieldcontain" class = "ui-hide-label" style="float:left"> <label for="usuario">USUARIO</label></p>
-              <div data-role = "fieldcontain" class = "ui-hide-label" style="float:left"> <input type="id" name="nombre"id="nombre" placeholder="Usuario"></p>
-                 
-            </div>     
-            </div>
-  
+            <div data-role = "fieldcontain" class = "ui-hide-label" style="float:left"> 
+                <p><label for="Estado">GENERO</label></p>
+                 Selecciona el genero de pelicula que quieres ver 
+                 <br>
+               <select class="selectpicker">
+                 <option type="Estado" id="Municipio">Escoge el genero
 
-            <div data-role = "fieldcontain" class = "ui-hide-label" style="float:left"> <label for="clave">CONTRASEÑA</label></p>
-              <div data-role = "fieldcontain" class = "ui-hide-label" style="float:left"> <input type="password" name="contra" id="contra" placeholder="Contraseña"></p>
-                 
-                <br>
-                <br>
-            </div>
-            </div>
+                  <option value="value1">Terror</option> 
+                  <option value="value2">Infantil</option>
+                  <option value="value3">Drama</option>
+                  <option value="value1">Romatica</option> 
+                  <option value="value2">Ficcion</option>
+                  
 
-      </div>
-    
-      <!--<input class="ui yellow button" id="sign in" type="submit" value="Ingresar">-->
+                 </option>
+              
+              </select>
+              </div>
+        
+          <div data-role = "fieldcontain" class = "ui-hide-label" style="float:left"> 
+          <p><label for="Estado">COMPAÑIA</label></p>
+           Selecciona con quien verás la película hoy
+           <br>
+         <select class="selectpicker">
+           <option type="Estado" id="Municipio"> Escoge tu compañia
 
-    </form>
+            <option value="value1">Solo</option> 
+            <option value="value2">Familia</option>
+            <option value="value3">Pareja</option>
+            <option value="value3">Amigos</option>
+           </option>
+        
+        </select>
+        <br>
+        <br>
 
+        </div>
+     
+
+        <br>
+        <br>
+       
+      
          <!-- <p><input   class="btn btn-lg btn-secondary" id= "BTN" type="submit" value="BUSCAR"></p> -->
-        <!--  <a class="btn btn-lg btn-secondary" id= "BTN" type="submit" href="info.html">INGRESAR</a> --> 
+        
     
       </fieldset>
-      <input class="btn btn-lg btn-secondary" id="sign up" type="submit" value="Ingresar" href="index2.html">
+      
+      <a  class="btn btn-lg btn-secondary" id= "BTN" type="submit" href="info.html">BUSCAR</a>
   </div>     
 </div>
 </p>
+
 </center>
 </body>
 <!--<script type="text/javascript" src="js/semantic.min.js"></script>-->
