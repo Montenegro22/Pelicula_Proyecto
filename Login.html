@@ -111,15 +111,15 @@
           <br>
 
           <div class="group">
-         
+
+          <form class="ui form" action="/cgi-bin/response.py" method="POST">
             <div data-role = "fieldcontain" class = "ui-hide-label" style="float:left"> <label for="usuario">USUARIO</label></p>
               <div data-role = "fieldcontain" class = "ui-hide-label" style="float:left"> <input type="id" id="usuario" placeholder="Usuario"></p>
                  
             </div>     
             </div>
   
-  
-  
+
             <div data-role = "fieldcontain" class = "ui-hide-label" style="float:left"> <label for="clave">CONTRASEÑA</label></p>
               <div data-role = "fieldcontain" class = "ui-hide-label" style="float:left"> <input type="password" id="clave" placeholder="Contraseña"></p>
                  
@@ -129,9 +129,13 @@
             </div>
 
       </div>
-     
+      <input class="btn btn-lg btn-secondary" id="sign up" type="submit" value="Registrar">
+      <!--<input class="ui yellow button" id="sign in" type="submit" value="Ingresar">-->
+
+
+
          <!-- <p><input   class="btn btn-lg btn-secondary" id= "BTN" type="submit" value="BUSCAR"></p> -->
-          <a class="btn btn-lg btn-secondary" id= "BTN" type="submit" href="info.html">INGRESAR</a>
+        <!--  <a class="btn btn-lg btn-secondary" id= "BTN" type="submit" href="info.html">INGRESAR</a> --> 
     
       </fieldset>
 
