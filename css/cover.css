@@ -365,6 +365,26 @@
       float: center;
 }
 
+
+.btn_3{
+
+  outline: none;
+      background: accent;
+      width: 30%;
+      border: 0;
+      border-radius: 10px;
+      padding: 11px 52px;
+      color: white;
+      font-family: inherit;
+      font-size: inherit;
+      font-weight: semibold;
+      line-height: inherit;
+      cursor: pointer;
+      background: rgb(235, 87, 87);
+      color: accent;
+      float: center;
+}
+
 /*
  * Base structure
  */
