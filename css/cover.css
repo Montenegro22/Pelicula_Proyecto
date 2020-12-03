@@ -348,7 +348,22 @@
       float: center;
 }
 
+.btn_2 {
 
+      background: accent;
+      width: 50%;
+      border: 0;
+      border-radius: 10px;
+      color: white;
+      font-family: inherit;
+      font-size: inherit;
+      font-weight: semibold;
+      line-height: inherit;
+      cursor: pointer;
+      background: rgb(235, 87, 87);
+     
+      float: center;
+}
 
 /*
  * Base structure
@@ -435,8 +450,24 @@ h1 {
 .grid_2 {
   margin-left: auto;
   margin-right: auto;
-  max-width: 50%;
+  max-width: 35%;
   height: 500px;
+  width: 100000px;
+  background: rgba(255, 255, 255, 0.726);
+	border-radius: 20px 20px 20px 20px;
+	color: rgba(10, 10, 10, 0.726);
+	font-size: 14px;
+  padding: 20px 20px;
+  float: center;
+
+  
+}
+
+.grid_3 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  height: 600px;
   width: 100000px;
   background: rgba(255, 255, 255, 0.726);
 	border-radius: 20px 20px 20px 20px;
@@ -446,13 +477,13 @@ h1 {
 
   
 }
-
-
 .group {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 0 20px;
+  float:center;
+  position: relative;
 }
 
 label {
@@ -464,7 +495,10 @@ label {
   line-height: 1;
   text-transform: uppercase;
   letter-spacing: .2em;
+  float: center;
+  position: center;
 }
+
 
 input {
   outline: none;
@@ -481,6 +515,8 @@ input {
   font-weight: semibold;
   line-height: inherit;
   transition: 0.3s ease;
+  float:center;
+  position: center;
 }
 
 
